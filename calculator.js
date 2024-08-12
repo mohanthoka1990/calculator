@@ -1,7 +1,7 @@
 let display = document.querySelector("#inputBox");
 let buttons = document.querySelectorAll("button");
 
-let buttonArray = Array.from(buttons);
+let buttonArray = Array.from(buttons); 
 let string = '';
 
 buttonArray.forEach(btn => {
@@ -89,5 +89,6 @@ buttonArray.forEach(btn => {
 //         display.value = string;
 //     }
 // });
+
 
 
